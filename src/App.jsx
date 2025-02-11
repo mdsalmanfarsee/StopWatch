@@ -6,6 +6,7 @@ import { list } from './assets/products.js';
 import './App.css'
 
 function App() {
+  
   const [products, setProducts] = useState(list);
 
   useEffect(() => {
